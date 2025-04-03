@@ -46,6 +46,7 @@ const resetCounter = () => {
   displayInpNum.innerHTML = 0;
 };
 
+// Input Range Function
 const changeInputValue = () => {
   displayInpNum.innerHTML = +inpRange.value;
 };
