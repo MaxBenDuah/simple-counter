@@ -6,6 +6,7 @@ const inpRange = document.querySelector(".inp-range");
 const displayInpNum = document.querySelector(".range-num");
 let numb = document.querySelector(".numb");
 
+// Display the range value
 displayInpNum.innerHTML = +inpRange.value;
 
 // Increase Function
